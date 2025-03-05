@@ -25,4 +25,5 @@ int main() {
     printf ("Bem vindo ao Super Trunfo Países, vamos começar caadastrando a primeira carta\n");
     printf ("Digite o nome do estadp:\n");
 
+    return 0;
 }
