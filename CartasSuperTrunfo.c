@@ -7,7 +7,7 @@ int main() {
     // Variaveis da primeira carta (representados com o 1 no final do nome)
 
     char estado1 [20];
-    int população1;
+    int populaçao1;
     float area1;
     float pib1;
     int num_ponto_turistico1;
@@ -15,7 +15,7 @@ int main() {
     // Variaveis da segunda carta (representados com o 2 no final do nome)
 
     char estado2 [20];
-    int população2;
+    int populaçao2;
     float area2;
     float pib2;
     int num_ponto_turistico2;
@@ -24,5 +24,5 @@ int main() {
 
     printf ("Bem vindo ao Super Trunfo Países, vamos começar caadastrando a primeira carta\n");
     printf ("Digite o nome do estadp:\n");
-    
+
 }
