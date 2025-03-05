@@ -20,12 +20,20 @@ int main() {
     float pib2;
     int num_ponto_turistico2;
 
-    // Mensagem de boas vindas com as instruções para cadastrar as 2 primeiras cartas
+    // Mensagem de boas vindas com as instruções para cadastrar a primeira carta
 
     printf ("Bem vindo ao Super Trunfo Países, vamos começar caadastrando a primeira carta.\n");
+    
     printf ("Digite o nome do estado:\n");
     scanf (" %s", estado1);
-    printf ("O estado é: %s", estado1);
 
+    printf ("Digite a população do estado:\n");
+    scanf (" %s", populacao1);
+
+    printf ("Digite a área do estado:\n");
+    scanf (" %s", area1)
+
+    printf ("Digite o pib do estado:\n");
+    scanf (" %s ")
     return 0;
 }
