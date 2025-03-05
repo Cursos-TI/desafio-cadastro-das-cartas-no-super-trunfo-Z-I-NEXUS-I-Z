@@ -7,7 +7,7 @@ int main() {
     // Variaveis da primeira carta (representados com o 1 no final do nome)
 
     char estado1 [20];
-    int populaçao1;
+    int populacao1;
     float area1;
     float pib1;
     int num_ponto_turistico1;
@@ -15,7 +15,7 @@ int main() {
     // Variaveis da segunda carta (representados com o 2 no final do nome)
 
     char estado2 [20];
-    int populaçao2;
+    int populacao2;
     float area2;
     float pib2;
     int num_ponto_turistico2;
