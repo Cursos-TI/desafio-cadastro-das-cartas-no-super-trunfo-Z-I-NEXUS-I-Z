@@ -31,10 +31,10 @@ int main() {
     scanf (" %s", populacao1);
 
     printf ("Digite a área do estado:\n");
-    scanf (" %s", area1)
+    scanf (" %s", area1);
 
     printf ("Digite o pib do estado:\n");
-    scanf (" %s ")
+    scanf (" %s ");
     return 0;
 }
 
