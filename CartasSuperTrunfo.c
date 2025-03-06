@@ -22,7 +22,7 @@ int main() {
 
     // Mensagem de boas vindas com as instruções para cadastrar a primeira carta
 
-    printf ("Bem vindo ao Super Trunfo Países, vamos começar caadastrando a primeira carta.\n");
+    printf ("Bem vindo ao Super Trunfo Países, vamos começar cadastrando a primeira carta.\n");
     
     printf ("Digite o nome do estado:\n");
     scanf (" %s", estado1);
