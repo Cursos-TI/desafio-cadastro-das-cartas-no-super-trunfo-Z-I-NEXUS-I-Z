@@ -22,19 +22,45 @@ int main() {
 
     // Mensagem de boas vindas com as instruções para cadastrar a primeira carta
 
-    printf ("Bem vindo ao Super Trunfo Países, vamos começar cadastrando a primeira carta.\n");
+    printf ("Olá, seja bem vindo ao Super Trunfo Países, vamos começar cadastrando a primeira carta.\n");
     
-    printf ("Digite o nome do estado:\n");
+    printf ("Digite o nome do estado:");
     scanf (" %s", estado1);
 
-    printf ("Digite a população do estado:\n");
+    printf ("Digite a população do estado:");
     scanf (" %d", &populacao1);
 
-    printf ("Digite a área do estado:\n");
+    printf ("Digite a área do estado:");
     scanf (" %f", &area1);
 
-    printf ("Digite o pib do estado:\n");
-    scanf (" %f" &pib1);
+    printf ("Digite o pib do estado:");
+    scanf (" %f", &pib1);
+
+    //Mensagem indicando as instruções para cadastrar a segunda carta
+
+    printf ("Muito bem, agora insira os dados da segunda carta.\n")
+
+    printf ("Digite o nome do estado:");
+    scanf (" %s", estado2);
+
+    printf ("Digite a população do estado:");
+    scanf (" %d", &populacao2);
+
+    printf ("Digite a área do estado:");
+    scanf (" %f", &area2);
+
+    printf ("Digite o pib do estado:");
+    scanf (" %f", &pib2);
+
+    //mensagem indicando sucesso no cadastro e indicando as cartas cadastradas
+
+    printf ("Cartas cadastradas com sucesso!");
+    
+    printf ("Cartas cadastradas no momento:\n");
+
+    printf ("Carta 1:\n");
+    printf(" %s", estado1);
+    
     return 0;
 }
 
