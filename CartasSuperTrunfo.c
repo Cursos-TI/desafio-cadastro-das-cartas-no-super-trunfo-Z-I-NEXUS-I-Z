@@ -38,7 +38,7 @@ int main() {
 
     //Mensagem indicando as instruções para cadastrar a segunda carta
 
-    printf ("Muito bem, agora insira os dados da segunda carta.\n")
+    printf ("Muito bem, agora insira os dados da segunda carta.\n");
 
     printf ("Digite o nome do estado:");
     scanf (" %s", estado2);
@@ -59,8 +59,19 @@ int main() {
     printf ("Cartas cadastradas no momento:\n");
 
     printf ("Carta 1:\n");
-    printf(" %s", estado1);
     
+    printf(" %s", estado1);
+    printf (" %d", &populacao1);
+    printf (" %f", &area1);
+    printf (" %f", &pib1);
+
+    printf ("Carta 2:\n");
+    
+    printf(" %s", estado2);
+    printf (" %d", &populacao2);
+    printf (" %f", &area2);
+    printf (" %f", &pib2);
+
     return 0;
 }
 
