@@ -60,17 +60,17 @@ int main() {
 
     printf ("Carta 1:\n");
     
-    printf(" %s", estado1);
-    printf (" %d", &populacao1);
-    printf (" %f", &area1);
-    printf (" %f", &pib1);
+    printf(" %s\n", estado1);
+    printf (" %d\n", &populacao1);
+    printf (" %.2f\n", &area1);
+    printf (" %.2f\n", &pib1);
 
     printf ("Carta 2:\n");
     
-    printf(" %s", estado2);
-    printf (" %d", &populacao2);
-    printf (" %f", &area2);
-    printf (" %f", &pib2);
+    printf(" %s\n", estado2);
+    printf (" %d\n", &populacao2);
+    printf (" %.2f\n", &area2);
+    printf (" %.2f\n", &pib2);
 
     return 0;
 }
