@@ -106,15 +106,57 @@ int main() {
     printf ("O super poder de %s é: %f\n\n", estado2, super_poder2);
 
     //Compara as duas cartas e exibe o resultado 
-    printf("Hora de comparar as cartas! (1= carta 1 vence, 0= carta 2 vence)\n\n");
+    printf ("Agora é a hora do duelo!\n\n");
     
-    printf ("População = %d\n", populacao1 > populacao2);
-    printf ("Área = %d\n", area1 > area2);
-    printf ("Pib = %d\n", pib1 > pib2);
-    printf ("Número de pontos turísticos = %d\n", num_ponto_turistico1 > num_ponto_turistico2);
-    printf ("Densidade populacional = %d\n", densidade_pop1 < densidade_pop2);
-    printf ("PIB per capita = %d\n", pib_pcapita1 > pib_pcapita2);
-    printf ("Super poder = %d\n", super_poder1 > super_poder2);
+    if (populacao1 > populacao2) {
+        printf ("Carta 1 venceu no atributo População!\n");
+    }
+    else {
+        printf ("Carta 2 venceu no atributo População!\n");
+    }
+    
+    if (area1 > area2) {
+        printf ("Carta 1 venceu no atributo Área!\n");
+    }
+    else {
+        printf ("Carta 2 venceu no atributo Área!\n");
+    }
+   
+    if (pib1 > pib2) {
+        printf ("Carta 1 venceu no atributo Pib!\n");
+    }
+    else {
+        printf ("Carta 2 venceu no atributo Pib!\n");
+    }
+    
+    if (num_ponto_turistico1 > num_ponto_turistico2) {
+        printf ("Carta 1 venceu no atributo Número de pontos turísticos!\n");
+    }
+    else {
+        printf ("Carta 2 venceu no atributo Número de pontos turísticos!\n");
+    }
+    
+    if (densidade_pop1 < densidade_pop2) {
+        printf ("Carta 1 venceu no atributo Densidade populacional!\n");
+    }
+    else {
+        printf ("Carta 2 venceu no atributo Densidade populacional!\n");
+    }
+
+    if (pib_pcapita1 > pib_pcapita2) {
+        printf ("Carta 1 venceu no atributo Pib per capita!\n");
+    }
+    else {
+        printf ("Carta 2 venceu no atributo Pib per capita!\n");
+    }
+    
+    if (super_poder1 > super_poder2) {
+        printf ("Carta 1 venceu no atributo Super poder!\n");
+    }
+    else {
+        printf ("Carta 2 venceu no atributo Super poder!\n");
+    }
+    
 
     return 0;
 }
