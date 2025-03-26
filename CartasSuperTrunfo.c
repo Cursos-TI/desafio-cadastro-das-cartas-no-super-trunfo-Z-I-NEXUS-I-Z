@@ -128,8 +128,10 @@ int main() {
             if (populacao1 > populacao2) {
                 printf ("População de %s: %lu  X  população de %s: %lu\n", pais1, populacao1, pais2, populacao2);
                 printf ("%s venceu no atributo População!\n", pais1);
-            }
-            else {
+            } else if (populacao1 == populacao2) {
+                printf ("População de %s: %lu  X  população de %s: %lu\n", pais1, populacao1, pais2, populacao2);
+                printf ("Empate!\n");
+            } else {
                 printf ("População de %s: %lu  X  população de %s: %lu\n", pais1, populacao1, pais2, populacao2);
                 printf ("%s venceu no atributo População!\n", pais2);
             }
@@ -138,8 +140,10 @@ int main() {
             if (area1 > area2) {
                 printf ("Área de %s: %f  X  área de %s: %f\n", pais1, area1, pais2, area2);
                 printf ("%s venceu no atributo Área!\n", pais1);
-            }
-            else {
+            } else if (area1 == area2) {
+                printf ("Área de %s: %f  X  área de %s: %f\n", pais1, area1, pais2, area2);
+                printf ("Empate!\n");
+            } else {
                 printf ("Área de %s: %f  X  área de %s: %f\n", pais1, area1, pais2, area2);
                 printf ("%s venceu no atributo Área!\n", pais2);
             }
@@ -148,8 +152,10 @@ int main() {
             if (pib1 > pib2) {
                 printf ("PIB de %s: %f  X  PIB de %s: %f\n", pais1, pib1, pais2, pib2);
                 printf ("%s venceu no atributo PIB!\n", pais1);
-            }
-            else {
+            } else if (pib1 == pib2) {
+                printf ("PIB de %s: %f  X  PIB de %s: %f\n", pais1, pib1, pais2, pib2);
+                printf ("Empate!\n");
+            } else {
                 printf ("PIB de %s: %f  X  PIB de %s: %f\n", pais1, pib1, pais2, pib2);
                 printf ("%s venceu no atributo PIB!\n", pais2);
             }
@@ -158,8 +164,10 @@ int main() {
             if (num_ponto_turistico1 > num_ponto_turistico2) {
                 printf ("Número de pontos turísticos de %s: %d  X  número de pontos turísticos de %s: %d\n", pais1, num_ponto_turistico1, pais2, num_ponto_turistico2);
                 printf ("%s venceu no atributo Número de pontos turísticos!\n", pais1);
-            }
-            else {
+            } else if (num_ponto_turistico1 == num_ponto_turistico2) {
+                printf ("Número de pontos turísticos de %s: %d  X  número de pontos turísticos de %s: %d\n", pais1, num_ponto_turistico1, pais2, num_ponto_turistico2);
+                printf ("Empate!\n");
+            } else {
                 printf ("Número de pontos turísticos de %s: %d  X  número de pontos turísticos de %s: %d\n", pais1, num_ponto_turistico1, pais2, num_ponto_turistico2);
                 printf ("%s venceu no atributo Número de pontos turísticos!\n", pais2);
             }
@@ -168,8 +176,10 @@ int main() {
             if (densidade_pop1 < densidade_pop2) {
                 printf ("Densidade populacional de %s: %f  X  densidade populacional de %s: %f\n", pais1, densidade_pop1, pais2, densidade_pop2);
                 printf ("%s venceu no atributo Densidade populacional!\n", pais1);
-            }
-            else {
+            } else if (densidade_pop1 == densidade_pop2) {
+                printf ("Densidade populacional de %s: %f  X  densidade populacional de %s: %f\n", pais1, densidade_pop1, pais2, densidade_pop2);
+                printf ("Empate!\n");
+            } else {
                 printf ("Densidade populacional de %s: %f  X  densidade populacional de %s: %f\n", pais1, densidade_pop1, pais2, densidade_pop2);
                 printf ("%s venceu no atributo Densidade populacional!\n", pais2);
             }
@@ -178,8 +188,10 @@ int main() {
             if (pib_pcapita1 > pib_pcapita2) {
                 printf ("PIB per capita de %s: %f  X  PIB per capita de %s: %f\n", pais1, pib_pcapita1, pais2, pib_pcapita2);
                 printf ("%s venceu no atributo PIB per capita!\n", pais1);
-            }
-            else {
+            } else if (pib_pcapita1 == pib_pcapita2) {
+                printf ("PIB per capita de %s: %f  X  PIB per capita de %s: %f\n", pais1, pib_pcapita1, pais2, pib_pcapita2);
+                printf ("Empate!\n");
+            } else {
                 printf ("PIB per capita de %s: %f  X  PIB per capita de %s: %f\n", pais1, pib_pcapita1, pais2, pib_pcapita2);
                 printf ("%s venceu no atributo PIB per capita!\n", pais2);
             }
@@ -188,8 +200,10 @@ int main() {
             if (super_poder1 > super_poder2) {
                 printf ("Super poder de %s: %f  X  super poder de %s: %f\n", pais1, super_poder1, pais2, super_poder2);
                 printf ("%s venceu no atributo Super poder!\n", pais1);
-            }
-            else {
+            } else if (super_poder1 == super_poder2) {
+                printf ("Super poder de %s: %f  X  super poder de %s: %f\n", pais1, super_poder1, pais2, super_poder2);
+                printf ("Empate!\n");
+            } else {
                 printf ("Super poder de %s: %f  X  super poder de %s: %f\n", pais1, super_poder1, pais2, super_poder2);
                 printf ("%s venceu no atributo Super poder!\n", pais2);
             }
