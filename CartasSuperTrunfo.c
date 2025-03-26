@@ -113,12 +113,12 @@ int main() {
     
     printf ("Ecolha um atributo para comparação (digite apenas o número da opção).\n\n");
     
-    printf ("1. População");
-    printf ("2. Área");
-    printf ("3. PIB");
-    printf ("4. Número de pontos turísticos");
-    printf ("5. Densidade populacional");
-    printf ("6. PIB per capita");
+    printf ("1. População\n");
+    printf ("2. Área\n");
+    printf ("3. PIB\n");
+    printf ("4. Número de pontos turísticos\n");
+    printf ("5. Densidade populacional\n");
+    printf ("6. PIB per capita\n");
     printf ("7. Super poder\n\n");
 
     scanf (" %d", &menu);
@@ -126,57 +126,71 @@ int main() {
     switch (menu) {
         case 1: 
             if (populacao1 > populacao2) {
+                printf ("População de %s: %lu  X  população de %s: %lu\n", pais1, populacao1, pais2, populacao2);
                 printf ("%s venceu no atributo População!\n", pais1);
             }
             else {
+                printf ("População de %s: %lu  X  população de %s: %lu\n", pais1, populacao1, pais2, populacao2);
                 printf ("%s venceu no atributo População!\n", pais2);
             }
             break;
         case 2:
             if (area1 > area2) {
+                printf ("Área de %s: %f  X  área de %s: %f\n", pais1, area1, pais2, area2);
                 printf ("%s venceu no atributo Área!\n", pais1);
             }
             else {
+                printf ("Área de %s: %f  X  área de %s: %f\n", pais1, area1, pais2, area2);
                 printf ("%s venceu no atributo Área!\n", pais2);
             }
             break;
         case 3:
             if (pib1 > pib2) {
+                printf ("PIB de %s: %f  X  PIB de %s: %f\n", pais1, pib1, pais2, pib2);
                 printf ("%s venceu no atributo PIB!\n", pais1);
             }
             else {
+                printf ("PIB de %s: %f  X  PIB de %s: %f\n", pais1, pib1, pais2, pib2);
                 printf ("%s venceu no atributo PIB!\n", pais2);
             }
             break;
         case 4:
             if (num_ponto_turistico1 > num_ponto_turistico2) {
+                printf ("Número de pontos turísticos de %s: %d  X  número de pontos turísticos de %s: %d\n", pais1, num_ponto_turistico1, pais2, num_ponto_turistico2);
                 printf ("%s venceu no atributo Número de pontos turísticos!\n", pais1);
             }
             else {
+                printf ("Número de pontos turísticos de %s: %d  X  número de pontos turísticos de %s: %d\n", pais1, num_ponto_turistico1, pais2, num_ponto_turistico2);
                 printf ("%s venceu no atributo Número de pontos turísticos!\n", pais2);
             }
             break;
         case 5:
             if (densidade_pop1 < densidade_pop2) {
+                printf ("Densidade populacional de %s: %f  X  densidade populacional de %s: %f\n", pais1, densidade_pop1, pais2, densidade_pop2);
                 printf ("%s venceu no atributo Densidade populacional!\n", pais1);
             }
             else {
+                printf ("Densidade populacional de %s: %f  X  densidade populacional de %s: %f\n", pais1, densidade_pop1, pais2, densidade_pop2);
                 printf ("%s venceu no atributo Densidade populacional!\n", pais2);
             }
             break;
         case 6:
             if (pib_pcapita1 > pib_pcapita2) {
+                printf ("PIB per capita de %s: %f  X  PIB per capita de %s: %f\n", pais1, pib_pcapita1, pais2, pib_pcapita2);
                 printf ("%s venceu no atributo PIB per capita!\n", pais1);
             }
             else {
+                printf ("PIB per capita de %s: %f  X  PIB per capita de %s: %f\n", pais1, pib_pcapita1, pais2, pib_pcapita2);
                 printf ("%s venceu no atributo PIB per capita!\n", pais2);
             }
             break;
         case 7:
             if (super_poder1 > super_poder2) {
+                printf ("Super poder de %s: %f  X  super poder de %s: %f\n", pais1, super_poder1, pais2, super_poder2);
                 printf ("%s venceu no atributo Super poder!\n", pais1);
             }
             else {
+                printf ("Super poder de %s: %f  X  super poder de %s: %f\n", pais1, super_poder1, pais2, super_poder2);
                 printf ("%s venceu no atributo Super poder!\n", pais2);
             }
             break;
