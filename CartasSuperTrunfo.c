@@ -213,7 +213,8 @@ int main() {
             printf ("Opção inválida!\n");
             break;
     }
-   // Comparações da primeira rodada (já existentes no código)
+   
+    //menu para  segunda rodada de comparação
 
    printf("Ecolha o segundo atributo para comparação, diferente do primeiro!!! (digite apenas o número da opção).\n\n");
     
